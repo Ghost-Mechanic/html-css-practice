@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 48px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.largetext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext,
+.headerlinks {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.subtext {
+    flex-wrap: wrap;
+}
+
+.pizzabutton {
+    height: 30px;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infotitle {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.toppings {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.pepperoni,
+.sausage,
+.cheesepizza,
+.supremepizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 16px;
+}
+
+#logo {
+    width: 75px;
+    height: auto;
+}
+
+#largeimage {
+    width: 300px;
+    height: auto;
+}
+
+#pep {
+    width: 200px;
+    height: auto;
+    border: 5px solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+}
+
+#ssg {
+    width: 200px;
+    height: auto;
+    border: 5px solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+}
+
+#cheese {
+    width: 200px;
+    height: auto;
+    border: 5px solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+}
+
+#supreme {
+    width: 200px;
+    height: auto;
+    border: 5px solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 750px;
+    padding-right: 750px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotename {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}

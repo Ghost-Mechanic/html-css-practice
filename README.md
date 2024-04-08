@@ -1,0 +1,1 @@
+This repository is for practicing HTML/CSS on a landing page for a website.
